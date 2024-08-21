@@ -1,0 +1,19 @@
+---
+layout: archive
+permalink: /R/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.R %}
+  <article>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.excerpt }}</p>
+    <div>
+      {{ post.content }}
+    </div>
+  </article>
+{% endfor %}
+
+

@@ -8,47 +8,56 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Emilio Luis Sáenz Guillén"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Emilio Luis Sáenz Guillén"
+description              : &description "I am an Actuary and Economist, with a deep-rooted interest in the study of mortal-
+ity and financial risk factors. Currently I am pursuing a Ph.D. in Actuarial Science at
+Bayes Business School. My research to date has focused on the development of gradi-
+ent boosting methods and generalised additive models using Geometrically Designed
+(GeD) splines, with a specific emphasis on their implementation within the real estate
+market. Prior to my Ph.D., I have worked as Research Assistant examining the impact
+of stakeholders’ ESG pressures on banking behaviour, and the potential moral hazards
+introduced by government bailout guarantees. In a previous engagement, I worked
+jointly with the Central Bank of the Argentine Republic (BCRA), studying the effect of
+network centrality on interest rate spreads in Argentine interbank markets."
+url                      : https://emilioluissaenzguillen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "emilioluissaenzguillen/emilioluissaenzguillen.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Bayes_060324-182.jpg"
+  name             : "Emilio Luis Sáenz Guillén"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Doctoral Researcher in Actuarial Science"
+  location         : "London, UK"
+  employer         : "Bayes Business School"
+  uri              : "https://www.bayes.city.ac.uk/faculties-and-research/students/emilio-saenz-guillen"
+  email            : "emilio.saenz-guillen@bayes.city.ac.uk" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "emilioluissaenzguillen"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -65,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "saenz__milo"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -206,7 +215,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  R:
     output: true
     permalink: /:collection/:path/
   talks:
