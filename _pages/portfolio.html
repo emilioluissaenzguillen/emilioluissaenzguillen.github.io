@@ -7,9 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
+<div class="portfolio-list">
+  {% for post in site.portfolio %}
+    <div class="portfolio-item">
+      <h2>{{ post.title }}</h2>
+      {{ post.content | markdownify }}
+    </div>
+  {% endfor %}
+</div>
