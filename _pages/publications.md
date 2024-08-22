@@ -11,6 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publications-list">
+  {% for post in site.publications reversed %}
+    <article class="archive-item" id="{{ post.url | slugify }}">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.citation | markdownify }}</p>
+    </article>
+    <hr>
+  {% endfor %}
+</div>
