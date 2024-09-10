@@ -33,7 +33,7 @@ author:
   avatar           : "Bayes_060324-182.jpg"
   name             : "Emilio Luis Sáenz Guillén"
   pronouns         : # example: "she/her"  
-  bio              : "Doctoral Researcher in Actuarial Science"
+  bio              : "Doctoral Researcher in<br>Actuarial Science"
   location         : "London, UK"
   employer         : "Bayes Business School"
   uri              : "https://www.bayes.city.ac.uk/faculties-and-research/students/emilio-saenz-guillen"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "emilio-luis-sáenz-guillén-4a6657136"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
