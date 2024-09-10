@@ -1,0 +1,8 @@
+cd "C:\Users\MEF08\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
+
+bundle exec jekyll serve
+
+git status
+git add .
+git commit -m "Margins update"
+git push
