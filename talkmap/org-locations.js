@@ -1,22 +1,12 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Generalized Additive Models & Functional Gradient Boosting with Geometrically Designed (GeD) Splines: Application to Insurance Data<br />Insurance Data Science Conference 2024; Stockholm University, Sweden",
+    59.366141,
+    18.059593
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Augmented Spline Regression for Advanced Data Analysis: Generalized Additive Models & Functional Gradient Boosting with Geometrically Designed (GeD) Splines<br />Royal Statistical Society (RSS) International Conference 2024; Brighton and Hove, UK",
+    50.8453169,
+    -0.1497469
   ]
 ];
