@@ -11,6 +11,16 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{%- assign talks_by_year = site.talks
+  | sort: "date"
+  | reverse
+  | group_by_exp: "t", "t.date | date: '%Y'" -%}
+
+{% for year in talks_by_year %}
+{% if year.name == "2025" or year.name == "2024" %}
+ <h2 id="talks-{{ year.name }}">{{ year.name }}</h2>
+ {% for post in year.items %}
+   {% include archive-single-talk.html %}
+ {% endfor %}
+{% endif %}
 {% endfor %}
