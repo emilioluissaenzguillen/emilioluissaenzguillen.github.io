@@ -1,0 +1,24 @@
+/*
+.author__bio {
+  font-size: 1rem !important;
+  margin-top: -1.25rem !important;
+}
+*/
+
+.author__avatar {
+  margin-top: 0rem !important;
+}
+
+.masthead {
+  background-color: #666666 !important; /* Dark blue */
+}
+
+.masthead *,
+.masthead a,
+.masthead .site-title,
+.masthead .site-nav,
+.masthead .greedy-nav,
+.masthead .greedy-nav a {
+  background-color: transparent !important;
+  color: #ffffff !important; /* White text */
+}

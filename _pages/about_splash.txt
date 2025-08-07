@@ -1,0 +1,68 @@
+---
+layout: splash
+permalink: /
+title: ""
+author_profile: false
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<div style="margin-top: 5rem;">
+
+<!-- Two-column layout -->
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
+
+<!-- LEFT COLUMN: TEXT -->
+<div style="flex: 1; min-width: 250px;" markdown="1">
+
+Welcome! I am an Actuary and Economist specialising in the development of statistical methods and
+their application across a broad range of domains, including Finance and Actuarial Science.
+
+I am in the final year of my Ph.D. in Actuarial Science at [Bayes Business School](https://www.bayes.citystgeorges.ac.uk/).  
+My research to date is focused on stochastic modelling using spline functions and copulas, and includes work
+on generalised additive models, gradient boosting, and non-parametric density estimation, as well
+as on modelling real/perceived income and standard of living, along with their implications in the context of marketing.
+
+<!-- Info block with icons -->
+  <div style="flex: 1; min-width: 250px; font-size: 0.95rem;">
+
+    <p style="margin: 0;">
+      <strong>Emilio L. Sáenz Guillén</strong><br>
+      📍 London, UK
+      <br>
+      
+      🏛️ <a href="https://www.bayes.citystgeorges.ac.uk/" target="_blank">Bayes Business School</a>
+      <br>
+    
+      <i class="fas fa-link"></i>
+      <a href="https://www.bayes.citystgeorges.ac.uk//faculties-and-research/students/emilio-saenz-guillen" target="_blank">
+        Institutional Webpage
+      </a>
+      <br>
+      
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:Emilio.Saenz-Guillen@citystgeorges.ac.uk">Emilio.Saenz-Guillen@citystgeorges.ac.uk</a>
+      <br>
+      
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/emilioluissaenzguillen" target="_blank">GitHub</a>
+      <br>
+
+      <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/emilioluissaenzguillen/" target="_blank">LinkedIn</a>
+      
+    </p>
+
+  </div>
+
+</div>
+
+<!-- RIGHT COLUMN: IMAGE -->
+<div style="flex: 0 0 400px; text-align: right;">
+  <img src="/images/profile2_new.jpg" alt="Emilio L. Sáenz Guillén" style="width: 100%; max-width: 400px; border-radius: 8px;">
+</div>
+
+</div> <!-- ✅ This ends the two-column layout -->
+
+</div> 

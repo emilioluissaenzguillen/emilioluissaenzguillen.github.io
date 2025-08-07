@@ -1,8 +1,11 @@
-cd "C:\Users\MEF08\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
+cd "C:\Users\emili\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
 
 bundle exec jekyll serve
 
+http://127.0.0.1:4000/
+
+
 git status
 git add .
-git commit -m "Margins update"
+git commit -m "General update"
 git push

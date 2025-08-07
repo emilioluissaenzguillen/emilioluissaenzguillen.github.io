@@ -5,8 +5,48 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign teaching_posts = site.teaching | sort: "date" | reverse %}
+{% assign header = teaching_posts | where: "title", "AS1056 - Mathematics for Actuarial Science" | first %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>{{ header.title }}</h2>
+<p><em>{{ header.venue }}, {{ header.location }}</em></p>
+
+<div>{{ header.content | markdownify }}</div>
+
+<br/>
+
+{% assign years_list = "2024,2023" | split: "," %}
+{% for year in years_list %}
+  {% assign year_posts = "" | split: "" %}
+  {% for item in teaching_posts %}
+    {% assign post_year = item.date | date: "%Y" %}
+    {% if post_year == year %}
+      {% assign year_posts = year_posts | push: item %}
+    {% endif %}
+  {% endfor %}
+  {% assign next_year = year | plus: 1 %}
+  {% if year_posts.size > 0 %}
+    <details>
+      <summary><strong>{{ year }}/{{ next_year }}</strong></summary>
+      <br/>
+      {% for post in year_posts %}
+        {{ post.content | markdownify }}
+      {% endfor %}
+    </details>
+  {% endif %}
 {% endfor %}
+
+{%- comment -%} Finance & Pricing Strategy (static section only) {%- endcomment -%}
+{% assign header2 = teaching_posts | where: "title", "Finance & Pricing Strategy" | first %}
+
+<h2>{{ header2.title }}</h2>
+<p><em>{{ header2.venue }}, {{ header2.location }}</em></p>
+<div>{{ header2.content | markdownify }}</div>
+
+
+
+
+
+
+
+

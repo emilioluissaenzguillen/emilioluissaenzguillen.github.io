@@ -6,16 +6,46 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+
+  <!-- HORIZONTAL -->
+  <figure class="author__avatar" style="text-align: left;">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 280px; height: auto; border-radius: 8px;" fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" style="width: 280px; height: auto; border-radius: 8px;" fetchpriority="high" />
+    {% endif %}
+
+    <figcaption class="author__avatar-caption">
+      <em>'The Rowers'. 1912. Oil on canvas. 100.5 × 171.5 cm.<br>
+      Basque Artists I (19th–early 20th century).<br>
+      Donated by Mr. Resurrección María de Azkue in 1945.</em>
+    </figcaption>
+  </figure>
+
+  <!-- VERTICAL -->
+  {% comment %}
+  <div class="author__avatar" style="text-align: left;">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" style="height: 220px; width: auto; border-radius: 8px;" fetchpriority="high" />
+    {% else %}
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" style="height: 220px; width: auto; border-radius: 8px;" fetchpriority="high" />
     {% endif %}
   </div>
+  {% endcomment %}
+
+  <!-- DEFAULT -->
+  {% comment %}
+  <div class="author__avatar">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+    {% else %}
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    {% endif %}
+  </div>
+  {% endcomment %}
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    {% comment %}<h3 class="author__name">{{ author.name }}</h3>{% endcomment %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
@@ -27,9 +57,16 @@
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
-      {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
+      {% if author.employer and author.employer_url %}
+        <li class="author__desktop" style="display: flex; align-items: center;">
+          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true" style="margin-right: 0.4em;"></i>
+          <a href="{{ author.employer_url }}" target="_blank" style="display: inline;">{{ author.employer }}</a>
+        </li>
+      {% elsif author.employer %}
+        <li class="author__desktop">
+          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}
+        </li>
+      {% endif %}    
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
@@ -164,4 +201,5 @@
       {% endif %}      
     </ul>
   </div>
+
 </div>

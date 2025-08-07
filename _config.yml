@@ -12,12 +12,13 @@ site_theme               : "default"
 title                    : "Emilio Luis Sáenz Guillén"
 title_separator          : "-"
 name                     : &name "Emilio Luis Sáenz Guillén"
-description              : &description "I am an Actuary and Economist, with a deep-rooted interest in the study of mortal-
-ity and financial risk factors. Currently I am pursuing a Ph.D. in Actuarial Science at
-Bayes Business School. My research to date has focused on the development of gradi-
-ent boosting methods and generalised additive models using Geometrically Designed
-(GeD) splines, with a specific emphasis on their implementation within the real estate
-market. Prior to my Ph.D., I have worked as Research Assistant examining the impact
+description              : &description "I am an Actuary and Economist specialising in the development of statistical methods and
+their application across a broad range of domains, including Finance and Actuarial Science.
+I am in the final year of my Ph.D. in Actuarial Science at Bayes Business School. My research
+to date is focused on stochastic modelling using spline functions and copulas, and includes work
+on generalised additive models, gradient boosting, and non-parametric density estimation, as well
+as on modelling real/perceived income and standard of living, and their implications in marketing.
+Prior to my Ph.D., I have worked as Research Assistant examining the impact
 of stakeholders’ ESG pressures on banking behaviour, and the potential moral hazards
 introduced by government bailout guarantees. In a previous engagement, I worked
 jointly with the Central Bank of the Argentine Republic (BCRA), studying the effect of
@@ -31,13 +32,14 @@ repository               : "emilioluissaenzguillen/emilioluissaenzguillen.github
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Bayes_060324-182.jpg"
+  avatar           : "los_remeros.jpg"
   name             : "Emilio Luis Sáenz Guillén"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in<br>Actuarial Science"
+  bio              : "" # "PhD Candidate in<br>Actuarial Science"
   location         : "London, UK"
-  employer         : "Bayes Business School"
-  uri              : "https://www.bayes.city.ac.uk/faculties-and-research/students/emilio-saenz-guillen"
+  employer         : "Bayes Business School"  
+  employer_url     : "https://www.bayes.citystgeorges.ac.uk//faculties-and-research/students/emilio-saenz-guillen"
+  uri              : # 
   email            : "Emilio.Saenz-Guillen@citystgeorges.ac.uk" 
 
   # Academic websites
@@ -78,7 +80,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "saenz__milo"
+  twitter          : # "saenz__milo"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
