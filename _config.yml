@@ -33,9 +33,9 @@ repository               : "emilioluissaenzguillen/emilioluissaenzguillen.github
 author:
   # Biographic information
   avatar           : "los_remeros.jpg"
-  name             : "Emilio Luis Sáenz Guillén"
+  name             : "Emilio L. Sáenz Guillén"
   pronouns         : # example: "she/her"  
-  bio              : "" # "PhD Candidate in<br>Actuarial Science"
+  bio              : "PhD Candidate in Actuarial Science" # "PhD Candidate in<br>Actuarial Science"
   location         : "London, UK"
   employer         : "Bayes Business School"  
   employer_url     : "https://www.bayes.citystgeorges.ac.uk//faculties-and-research/students/emilio-saenz-guillen"
