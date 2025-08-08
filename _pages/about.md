@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,16 +23,40 @@ jointly with the Central Bank of the Argentine Republic (BCRA), studying the eff
 network centrality on interest rate spreads in Argentine interbank markets.
 -->
 
+<div style="text-align:center">
 
+  <picture>
+    <!-- ▸ phones (≤ 768 px) → Los remeros -->
+    <source media="(max-width: 768px)"
+            srcset="{{ '/images/los_remeros.jpg' | relative_url }}">
+
+    <!-- ▸ wider screens → profile2_new -->
+    <source media="(min-width: 769px)"
+            srcset="{{ '/images/profile2_new.jpg' | relative_url }}">
+
+    <!-- fallback -->
+    <img src="{{ '/images/profile2_new.jpg' | relative_url }}"
+         alt="Los remeros"
+         style="max-width:60%;height:auto;border-radius:8px;">
+  </picture>
+
+  <!-- caption (mobile-only) -->
+  <p class="mobile-caption" style="margin-top:0.5rem; font-size:0.8rem;">
+    <em>'The Rowers'. 1912. Oil on canvas. 100.5 × 171.5 cm.<br>
+    Basque Artists I (19th – early 20th century).<br>
+    Donated by Mr. Resurrección María de Azkue in 1945.</em>
+  </p>
+</div>
+
+<!--
 <div style="text-align: center;">
   <img src="/images/profile2_new.jpg" alt="Los remeros" style="max-width:60%; height:auto;">
 </div>
 
-<!--
+
 <div style="text-align: center;">
   <img src="/images/los_remeros.jpg" alt="Los remeros" style="max-width:100%; height:auto;">
   <p><em>'The Rowers'. 1912. Oil on canvas. 100.5 x 171.5 cm. Basque Artists I (19th century - first half of the 20th century). Donation by Mr. Resurrección María de Azkue in 1945.</em></p>
 </div>
 -->
-
 

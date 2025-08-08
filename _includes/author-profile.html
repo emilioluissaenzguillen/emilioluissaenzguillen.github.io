@@ -7,13 +7,27 @@
 <div itemscope itemtype="http://schema.org/Person">
 
 
-  <!-- HORIZONTAL -->
-  <figure class="author__avatar" style="text-align: left;">
-    {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 280px; height: auto; border-radius: 8px;" fetchpriority="high" />
-    {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" style="width: 280px; height: auto; border-radius: 8px;" fetchpriority="high" />
-    {% endif %}
+  <!-- responsive avatar  ────────────────────────────────────────────────-->
+  <figure class="author__avatar" style="text-align:left;">
+
+    <picture>
+      {%- comment -%} Phones and narrow screens: vertical portrait {%- endcomment -%}
+      <source
+        media="(max-width: 768px)"
+        srcset="{{ '/images/profile2_new.jpg' | prepend: base_path }}">
+
+      {%- comment -%} Wider screens: horizontal painting {%- endcomment -%}
+      <source
+        media="(min-width: 769px)"
+        srcset="{{ '/images/los_remeros.jpg' | prepend: base_path }}">
+
+      {%- comment -%} Fallback for very old browsers {%- endcomment -%}
+      <img
+        src="{{ '/images/los_remeros.jpg' | prepend: base_path }}"
+        alt="{{ author.name }}"
+        style="width:280px;max-width:100%;height:auto;border-radius:8px;"
+        fetchpriority="high">
+    </picture>
 
     <figcaption class="author__avatar-caption">
       <em>'The Rowers'. 1912. Oil on canvas. 100.5 × 171.5 cm.<br>
@@ -21,17 +35,8 @@
       Donated by Mr. Resurrección María de Azkue in 1945.</em>
     </figcaption>
   </figure>
+  <!-- responsive avatar  ────────────────────────────────────────────────-->
 
-  <!-- VERTICAL -->
-  {% comment %}
-  <div class="author__avatar" style="text-align: left;">
-    {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}" style="height: 220px; width: auto; border-radius: 8px;" fetchpriority="high" />
-    {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" style="height: 220px; width: auto; border-radius: 8px;" fetchpriority="high" />
-    {% endif %}
-  </div>
-  {% endcomment %}
 
   <!-- DEFAULT -->
   {% comment %}
