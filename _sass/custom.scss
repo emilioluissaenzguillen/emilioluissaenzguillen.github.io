@@ -40,3 +40,20 @@
   background-color: transparent !important;
   color: #ffffff !important; /* White text */
 }
+
+/* --- Make individual talk titles and date smaller --- */
+.archive__item-title,
+.archive__item-title a {
+  font-size: 1.05em !important;   /* default ~1.3em — reduce to taste */
+  line-height: 1.25em !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.2em;
+}
+
+/* Make the small date line (e.g., July 03, 2025) smaller too */
+.page__meta {
+  font-size: 0.9em !important;
+  color: #555 !important;  /* slightly lighter grey */
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+}
