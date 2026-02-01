@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an Actuary and Economist specialising in the development of statistical methods and
-their application across a broad range of domains, including Finance and Actuarial Science.
+Welcome! I am an Actuary and Economist interested in the development of statistical methods and
+their application across a broad range of domains, including finance, actuarial science and biomedical data analysis.
 
 I am in the final year of my Ph.D. in Actuarial Science at [Bayes Business School](https://www.bayes.citystgeorges.ac.uk/),
-under the supervision of [Professor Vladimir K. Kaishev](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/vladimir-kaishev) and [Dr Dimitrina S. Dimitrova](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/dimitrina-dimitrova). My research to date is focused on stochastic modelling using spline functions and copulas,
+under the supervision of [Professor Vladimir K. Kaishev](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/vladimir-kaishev) and [Dr Dimitrina S. Dimitrova](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/dimitrina-dimitrova). My research focuses on stochastic modelling using spline functions and copulas,
 and includes work on generalised additive models, gradient boosting, and non-parametric density estimation, as well
 as on modelling real/perceived income and standard of living, along with their implications in the context of marketing.
 

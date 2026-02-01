@@ -1,15 +1,13 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
 ## Working Papers
 
-- Dimitrova, D. S., Kaishev, V. K., & Sáenz Guillén, E. L. (2025a). *GeDS: An R package for regression, generalized additive models and functional gradient boosting, based on geometrically designed (ged) splines* [Manuscript submitted for publication]. Under review in the *Journal of Statistical Software*.
-
----
+- Dimitrova, D. S., Kaishev, V. K., & Sáenz Guillén, E. L. (2025a). *GeDS: An R package for regression, generalized additive models and functional gradient boosting, based on geometrically designed (ged) splines* [Manuscript submitted for publication]. Under review in the *Journal of Statistical Software*. [Pre-print](https://cran.r-project.org/web/packages/GeDS/vignettes/jss_article.pdf).
 
 ## Work in Progress
 
@@ -19,13 +17,9 @@ author_profile: true
 
 - *Bariatric Data Analytics Based on the UK National Bariatric Surgery Registry (NBSR)*, joint project with Prof. Vladimir Kaishev, Dr. Dimitrina Dimitrova, and external collaborators, Miss Emma Rose McGlone from Imperial College London and Mr Omar Khan from the British Obesity & Metabolic Specialist Society (BOMSS).
 
----
-
 ## Acknowledged Collaborations
 
 - Montes-Rojas, G., & Elosegui, P. (2020). *Network ANOVA random effects models for node attributes.* *Journal of Dynamics and Games, 7*(3), 239–252. [https://doi.org/10.3934/jdg.2020017](https://doi.org/10.3934/jdg.2020017)
-
----
 
 ## Software
 

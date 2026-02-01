@@ -5,6 +5,26 @@
 }
 */
 
+/* =========================
+   Smaller text across ALL pages
+   ========================= */
+
+/* Normal pages (home, teaching, etc.) */
+.page__content {
+  font-size: 0.95em !important;
+}
+
+/* Archive/list pages (publications, talks, year-archive, portfolio) */
+.archive,
+.archive__item,
+.archive__item-excerpt,
+.list__item,
+.page__meta,
+.taxonomy__section {
+  font-size: 0.95em !important;
+}
+
+
 .author__avatar {
   margin-top: 0rem !important;
 }
@@ -50,6 +70,7 @@
   margin-bottom: 0.2em;
 }
 
+
 /* Make the small date line (e.g., July 03, 2025) smaller too */
 .page__meta {
   font-size: 0.9em !important;
@@ -57,3 +78,34 @@
   margin-top: 0.1em;
   margin-bottom: 0.2em;
 }
+
+/* =========================
+   TIGHTEN ARCHIVE LIST SPACING (talks/publications/blog)
+   ========================= */
+
+   .archive .list__item {
+    margin-bottom: 0.6rem !important;
+  }
+  
+  .archive .archive__item {
+    padding-bottom: 0 !important;
+    margin-bottom: 0.6rem !important;
+  }
+  
+  .archive .archive__item-title {
+    margin: 0 0 0.15rem 0 !important;
+  }
+  
+  .archive .page__meta {
+    margin: 0.1rem 0 0.25rem 0 !important;
+  }
+  
+  .archive .archive__item-excerpt {
+    margin: 0.15rem 0 0.25rem 0 !important;
+  }
+  
+  /* Year headings like "2025" */
+  .archive .archive__subtitle {
+    margin: 1rem 0 0.4rem 0 !important;
+  }
+  
