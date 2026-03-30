@@ -1,5 +1,5 @@
 ---
-title: "Finance & Pricing Strategy"
+title: "Finance & Pricing Strategy (2024/25)"
 collection: teaching
 type: "Postgraduate Course (MSc Strategic Marketing Online)"
 permalink: /teaching/Mathematics-for-Actuarial-Science

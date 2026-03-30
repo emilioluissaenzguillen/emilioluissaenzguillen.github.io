@@ -20,8 +20,8 @@ main:
   - title: "R"
     url: /portfolio/
          
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Tutorials"
+    url: /tutorials/
     
   - title: "CV"
     url: /files/CV_Emilio_Luis_Sáenz_Guillén.pdf  
