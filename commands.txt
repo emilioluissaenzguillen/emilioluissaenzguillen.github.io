@@ -1,4 +1,4 @@
-cd "C:\Users\emili\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
+cd "C:\Users\addj700\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
 
 bundle exec jekyll serve
 
@@ -7,5 +7,5 @@ http://127.0.0.1:4000/
 
 git status
 git add .
-git commit -m "Update in Teaching and Publications"
+git commit -m "Update in cv"
 git push
