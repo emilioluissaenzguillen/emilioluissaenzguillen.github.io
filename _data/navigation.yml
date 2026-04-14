@@ -9,7 +9,7 @@
 
 main:
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "Conferences"
     url: /talks/    
@@ -17,11 +17,8 @@ main:
   - title: "Teaching"
     url: /teaching/
     
-  - title: "R"
-    url: /portfolio/
-         
-  - title: "Tutorials"
-    url: /tutorials/
+  - title: "Software"
+    url: /software/
     
   - title: "CV"
     url: /files/CV_Emilio_Luis_Sáenz_Guillén.pdf  

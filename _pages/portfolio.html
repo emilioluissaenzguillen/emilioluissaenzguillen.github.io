@@ -3,15 +3,5 @@ layout: archive
 title: ""
 permalink: /portfolio/
 author_profile: true
+redirect_to: /software/
 ---
-
-{% include base_path %}
-
-<div class="portfolio-list">
-  {% for post in site.portfolio %}
-    <div class="portfolio-item">
-      <h2>{{ post.title }}</h2>
-      {{ post.content | markdownify }}
-    </div>
-  {% endfor %}
-</div>
