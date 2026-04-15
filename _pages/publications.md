@@ -9,11 +9,11 @@ redirect_from:
 
 ## Working Papers
 
-Dimitrova, D. S., Kaishev, V. K., & Sáenz Guillén, E. L. (2025a). *GeDS: An R package for Regression, Generalized Additive Models and Functional Gradient Boosting, based on Geometrically Designed (GeD) Splines* [Manuscript submitted for publication]. Under review in the *Journal of Statistical Software*. [Pre-print](https://cran.r-project.org/web/packages/GeDS/vignettes/jss_article.pdf).
+Dimitrova, D. S., Kaishev, V. K., and Sáenz Guillén, E. L. (2025a). *GeDS: An R package for Regression, Generalized Additive Models and Functional Gradient Boosting, based on Geometrically Designed (GeD) Splines* [Manuscript submitted for publication]. Under review in the *Journal of Statistical Software*. [Pre-print](https://cran.r-project.org/web/packages/GeDS/vignettes/jss_article.pdf).
 
-D. S. Dimitrova, V. K. Kaishev and E. L. Sáenz Guillén (2026a). *Density and distribution function estimation using variable-knot splines*. Intended for submission to *Econometric Theory*. R package: [**DDFS**](https://github.com/emilioluissaenzguillen/ddfs).
+Dimitrova, D. S., Kaishev, V. K., and Sáenz Guillén, E. L. (2026a). *Density and distribution function estimation using variable-knot splines*. Manuscript submitted for publication. R package: [**DDFS**](https://github.com/emilioluissaenzguillen/ddfs).
 
-D. S. Dimitrova, V. K. Kaishev and E. L. Sáenz Guillén (2026b). *How Income Perceptions and Living Standards Shape Inequality and New Product Diffusion*. Manuscript submitted for publication. A corresponding survey study was funded through an internal grant and implemented via [*Prolific*](https://www.prolific.com/) and [*ShinyApps*](https://emilioluissaenzguillen.shinyapps.io/perceived_income_inequality_distribution/).
+Dimitrova, D. S., Kaishev, V. K., and Sáenz Guillén, E. L. (2026b). *How Income Perceptions and Living Standards Shape Inequality and New Product Diffusion*. Manuscript submitted for publication. A corresponding survey study was funded through an internal grant and implemented via [*Prolific*](https://www.prolific.com/) and [*ShinyApps*](https://emilioluissaenzguillen.shinyapps.io/perceived_income_inequality_distribution/).
 
 ## Work in Progress
 

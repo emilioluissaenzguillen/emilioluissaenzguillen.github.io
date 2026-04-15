@@ -9,9 +9,49 @@
    Smaller text across ALL pages
    ========================= */
 
+/* Improve readability by using black for primary text. */
+body,
+.page__content,
+.archive,
+.archive__item,
+.archive__item-excerpt,
+.author__bio,
+.author__content,
+.sidebar,
+.taxonomy__section {
+  color: #000000 !important;
+}
+
 /* Normal pages (home, teaching, etc.) */
 .page__content {
   font-size: 0.95em !important;
+}
+
+/* Keep teaching material lists compact and easier to scan. */
+.teaching-content {
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+.teaching-content h2 {
+  font-size: 1.12em;
+}
+
+.teaching-content h3 {
+  font-size: 1em;
+}
+
+.teaching-section {
+  margin-bottom: 1.6rem;
+}
+
+.teaching-section h2 {
+  margin-top: 0;
+}
+
+.teaching-content ul li,
+.teaching-content ol li {
+  margin-bottom: 0.25em;
 }
 
 /* Archive/list pages (publications, talks, year-archive, portfolio) */
@@ -74,7 +114,7 @@
 /* Make the small date line (e.g., July 03, 2025) smaller too */
 .page__meta {
   font-size: 0.9em !important;
-  color: #555 !important;  /* slightly lighter grey */
+  color: #000 !important;
   margin-top: 0.1em;
   margin-bottom: 0.2em;
 }

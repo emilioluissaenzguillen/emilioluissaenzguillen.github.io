@@ -1,5 +1,5 @@
 ---
-title: "AS1056 - Mathematics for Actuarial Science"
+title: "AS1004/AS1056 - Mathematics for Actuarial Science"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/Mathematics-for-Actuarial-Science

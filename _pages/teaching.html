@@ -7,15 +7,18 @@ author_profile: true
 
 {% assign teaching_posts = site.teaching | sort: "date" | reverse %}
 {% assign header0 = teaching_posts | where: "title", "AS3209 - Probabilistic Modelling (2025/26)" | first %}
-{% assign header = teaching_posts | where: "title", "AS1056 - Mathematics for Actuarial Science" | first %}
+{% assign header = teaching_posts | where: "title", "AS1004/AS1056 - Mathematics for Actuarial Science" | first %}
 
+<div class="teaching-content">
+
+<section class="teaching-section">
 <h2>{{ header0.title }}</h2>
 <p><em>{{ header0.venue }}, {{ header0.location }}</em></p>
 
 <div>{{ header0.content | markdownify }}</div>
+</section>
 
-<br/>
-
+<section class="teaching-section">
 <h2>{{ header.title }}</h2>
 <p><em>{{ header.venue }}, {{ header.location }}</em></p>
 
@@ -43,14 +46,18 @@ author_profile: true
     </details>
   {% endif %}
 {% endfor %}
+</section>
 
 {%- comment -%} Finance & Pricing Strategy (static section only) {%- endcomment -%}
 {% assign header2 = teaching_posts | where: "title", "Finance & Pricing Strategy (2024/25)" | first %}
 
+<section class="teaching-section">
 <h2>{{ header2.title }}</h2>
 <p><em>{{ header2.venue }}, {{ header2.location }}</em></p>
 <div>{{ header2.content | markdownify }}</div>
+</section>
 
+</div>
 
 
 

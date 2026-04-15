@@ -1,5 +1,5 @@
 ---
-title: "AS1056 - Mathematics for Actuarial Science (2024/25)"
+title: "AS1004/AS1056 - Mathematics for Actuarial Science (2024/25)"
 collection: teaching
 type: "Undergraduate Course"
 date: 2024-10-01

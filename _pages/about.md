@@ -7,13 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an Actuary and Economist interested in the development of statistical methods and
-their application across a broad range of domains, including finance, actuarial science and biomedical data analysis.
+**WELCOME!**
 
-I am in the final year of my Ph.D. in Actuarial Science at [Bayes Business School](https://www.bayes.citystgeorges.ac.uk/),
-under the supervision of [Professor Vladimir K. Kaishev](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/vladimir-kaishev) and [Dr Dimitrina S. Dimitrova](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/dimitrina-dimitrova). My research focuses on stochastic modelling using spline functions and copulas,
-and includes work on generalised additive models, gradient boosting, and non-parametric density estimation, as well
-as on modelling real/perceived income and standard of living, along with their implications in the context of marketing.
+**My name is Emilio L. Sáenz Guillén and I am a Ph.D. Candidate in Actuarial Science at [Bayes Business School - City St. George's, University of London](https://www.bayes.citystgeorges.ac.uk/).**
+
+I work under the supervision of [Professor Vladimir K. Kaishev](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/vladimir-kaishev) and [Dr Dimitrina S. Dimitrova](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/dimitrina-dimitrova), and my research focuses on the development of novel statistical methods and stochastic modelling based on <u>splines and copulas</u>, with applications in economics, marketing, risk, and biomedical data analysis.
+
+This includes work on:
+
+- Gradient boosting
+- Generalized additive models
+- Nonparametric density estimation
+- (Perceived) income/standard of living modelling
+- Inequality measurement and new product diffusion
 
 <!--
 Prior to my Ph.D., I have worked as Research Assistant examining the impact
