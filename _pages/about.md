@@ -15,11 +15,11 @@ I work under the supervision of [Professor Vladimir K. Kaishev](https://www.baye
 
 This includes work on:
 
-- Gradient boosting
-- Generalized additive models
-- Nonparametric density estimation
-- (Perceived) income/standard of living modelling
-- Inequality measurement and new product diffusion
+- gradient boosting;
+- generalized additive models;
+- nonparametric density estimation;
+- (perceived) income/standard of living modelling;
+- inequality measurement and new product diffusion.
 
 <!--
 Prior to my Ph.D., I have worked as Research Assistant examining the impact
