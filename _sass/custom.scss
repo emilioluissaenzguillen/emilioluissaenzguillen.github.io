@@ -157,6 +157,43 @@ body,
   color: #ffffff !important; /* White text */
 }
 
+/* Restore readable mobile dropdown menu styles. */
+.masthead .greedy-nav .hidden-links,
+.masthead .greedy-nav .hidden-links li,
+.masthead .greedy-nav .hidden-links a {
+  background-color: #ffffff !important;
+  color: #002147 !important;
+}
+
+.masthead .greedy-nav .hidden-links i,
+.masthead .greedy-nav .hidden-links svg {
+  color: #002147 !important;
+  fill: #002147 !important;
+}
+
+.masthead .greedy-nav .hidden-links a:hover {
+  background-color: #eef3f8 !important;
+  color: #002147 !important;
+}
+
+/* Keep author/social links visible in the sidebar and mobile Follow menu. */
+.author__urls,
+.author__urls li,
+.author__urls a {
+  color: #000000 !important;
+}
+
+.author__urls a:hover {
+  color: #5f1414 !important;
+}
+
+.author__urls .fas,
+.author__urls .fab,
+.author__urls .far,
+.author__urls .ai {
+  color: inherit !important;
+}
+
 /* --- Make individual talk titles and date smaller --- */
 .archive__item-title,
 .archive__item-title a {
