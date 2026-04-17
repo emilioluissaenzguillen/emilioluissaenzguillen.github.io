@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<h2>R Packages</h2>
+<div class="software-content">
+
+<h2>R PACKAGES</h2>
 <div class="portfolio-list">
   {% for post in site.portfolio %}
     <div class="portfolio-item">
@@ -19,16 +21,27 @@ redirect_from:
   {% endfor %}
 </div>
 
-<h2>Tutorials</h2>
+<h2>TUTORIALS &amp; OTHER CODING</h2>
 
-<h3>R</h3>
+<h3><img src="https://www.r-project.org/logo/Rlogo.png" alt="R" class="software-logo software-r-logo"></h3>
 {% assign r_posts = site.posts | where: "tutorial_group", "R" %}
 {% for post in r_posts %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h3>Stata (in Spanish)</h3>
+<h3 class="software-tool-heading">
+  <img src="{{ '/images/software/matlab.ico' | relative_url }}" alt="MATLAB" class="software-logo software-matlab-logo">
+  <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" class="software-logo software-python-logo">
+</h3>
+<div class="portfolio-item">
+  <h4>UK yield curve forecasting</h4>
+  <p>Forecasting the UK term structure using a state-space representation of the Diebold-Li model and LSTM neural networks. See <a href="https://github.com/emilioluissaenzguillen/uk-yield-curve-forecasting">https://github.com/emilioluissaenzguillen/uk-yield-curve-forecasting</a>.</p>
+</div>
+
+<h3><img src="https://www.stata.com/includes/images/stata-logo-blue.svg" alt="Stata" class="software-logo software-stata-logo"></h3>
 {% assign stata_posts = site.posts | where: "tutorial_group", "Stata (in Spanish)" %}
 {% for post in stata_posts %}
   {% include archive-single.html %}
 {% endfor %}
+
+</div>

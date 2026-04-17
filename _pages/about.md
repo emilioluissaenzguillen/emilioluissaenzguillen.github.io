@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-**WELCOME!**
-
-**My name is Emilio L. Sáenz Guillén and I am a Ph.D. Candidate in Actuarial Science at [Bayes Business School - City St. George's, University of London](https://www.bayes.citystgeorges.ac.uk/).**
+<div class="homepage-lead">
+  <p><strong>WELCOME!</strong></p>
+  <p><strong>My name is Emilio L. Sáenz Guillén, I am a Ph.D. Candidate in Actuarial Science at <a href="https://www.bayes.citystgeorges.ac.uk/">Bayes Business School - City St. George's, University of London</a>.</strong></p>
+  <p><strong>I am in the academic job market 2025-26.</strong></p>
+</div>
 
 I work under the supervision of [Professor Vladimir K. Kaishev](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/vladimir-kaishev) and [Dr Dimitrina S. Dimitrova](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/dimitrina-dimitrova), and my research focuses on the development of novel statistical methods and stochastic modelling based on <u>splines and copulas</u>, with applications in economics, marketing, risk, and biomedical data analysis.
 
