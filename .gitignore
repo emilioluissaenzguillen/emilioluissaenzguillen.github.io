@@ -19,3 +19,4 @@ package-lock.json
 # Ignore folders related to IDEs
 .vscode/
 .claude/ 
+.claude/ 
