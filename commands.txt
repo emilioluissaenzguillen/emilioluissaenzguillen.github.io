@@ -1,4 +1,4 @@
-cd "C:\Users\addj700\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
+cd "C:\Users\emili\Dropbox\Bayes Business School\emilioluissaenzguillen.github.io"
 
 bundle exec jekyll serve
 
