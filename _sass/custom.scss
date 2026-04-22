@@ -187,12 +187,38 @@ body,
   color: #5f1414 !important;
 }
 
+/* Biographic solid icons (location, employer, website, email) follow text color. */
 .author__urls .fas,
-.author__urls .fab,
-.author__urls .far,
-.author__urls .ai {
+.author__urls .far {
   color: inherit !important;
 }
+
+/* Brand and academic icons: restore original brand colours. */
+.author__urls .fa-bluesky         { color: #0085ff !important; }
+.author__urls .fa-dribbble        { color: #ea4c89 !important; }
+.author__urls .fa-facebook,
+.author__urls .fa-facebook-f      { color: #3b5998 !important; }
+.author__urls .fa-flickr          { color: #ff0084 !important; }
+.author__urls .fa-github,
+.author__urls .fa-github-alt      { color: #171516 !important; }
+.author__urls .fa-instagram       { color: #517fa4 !important; }
+.author__urls .fa-kaggle          { color: #20beff !important; }
+.author__urls .fa-linkedin,
+.author__urls .fa-linkedin-square { color: #007bb6 !important; }
+.author__urls .fa-mastodon        { color: #6364ff !important; }
+.author__urls .fa-pinterest       { color: #cb2027 !important; }
+.author__urls .fa-researchgate    { color: #00d0af !important; }
+.author__urls .fa-soundcloud      { color: #f30 !important; }
+.author__urls .fa-stack-overflow  { color: #fe7a15 !important; }
+.author__urls .fa-tumblr          { color: #32506d !important; }
+.author__urls .fa-x-twitter       { color: #000 !important; }
+.author__urls .fa-youtube         { color: #f00 !important; }
+.author__urls .fa-xing            { color: #006567 !important; }
+.author__urls .ai-google-scholar  { color: #4285f4 !important; }
+.author__urls .ai-orcid           { color: #a6ce39 !important; }
+.author__urls .ai-arxiv           { color: #b31b1b !important; }
+.author__urls .ai-academia        { color: #41454a !important; }
+.author__urls .ai-semantic-scholar { color: #1857b6 !important; }
 
 /* --- Make individual talk titles and date smaller --- */
 .archive__item-title,
