@@ -267,4 +267,32 @@ body,
   .archive .archive__subtitle {
     margin: 1rem 0 0.4rem 0 !important;
   }
+
+.research-entry {
+  margin-bottom: 1rem;
+}
+
+.research-entry > p {
+  margin-bottom: 0.25rem;
+}
+
+.paper-abstract {
+  margin: 0 0 0.15rem 1rem;
+}
+
+.paper-abstract summary {
+  cursor: pointer;
+  color: #5f1414;
+  font-size: 0.95em;
+}
+
+.paper-abstract[open] summary {
+  margin-bottom: 0.3rem;
+}
+
+.paper-abstract p {
+  margin: 0;
+  font-size: 0.94em;
+  line-height: 1.45;
+}
   
