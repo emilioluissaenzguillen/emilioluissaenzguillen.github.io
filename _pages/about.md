@@ -19,8 +19,8 @@ This includes work on:
 - gradient boosting;
 - generalized additive models;
 - nonparametric density estimation;
-- (perceived) income/standard of living modelling;
-- inequality measurement and new product diffusion.
+- (perceived) income & standard of living modelling;
+- survival models.
 
 <!--
 Prior to my Ph.D., I have worked as Research Assistant examining the impact
