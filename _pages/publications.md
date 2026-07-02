@@ -30,26 +30,6 @@ redirect_from:
   </details>
 </div>
 
-<div class="research-entry">
-  <p>Dimitrova, D. S., Kaishev, V. K., and S&aacute;enz Guill&eacute;n, E. L. (2026b). <em>How Income Perceptions and Living Standards Shape Inequality and New Product Diffusion</em>. Manuscript submitted for publication. A corresponding survey study was funded through an internal grant and implemented via <a href="https://www.prolific.com/"><em>Prolific</em></a> and <a href="https://emilioluissaenzguillen.shinyapps.io/perceived_income_inequality_distribution/"><em>ShinyApps</em></a>.</p>
-  <details class="paper-abstract">
-    <summary>Abstract</summary>
-    <p>We introduce a novel stochastic framework in which income perceptions are shaped by individuals&rsquo; &ldquo;visible&rdquo; standard of living, proxied by the value of owned goods (e.g., housing, cars) and consumption expenditures (e.g., groceries, leisure, holidays). Central to the approach is modeling the joint distribution of perceived income and standard of living. We employ a Gaussian copula and marginal distributions specified via free-knot splines. Both marginals and the copula are estimated using UK survey data.</p>
-    <p>The estimated joint distribution enables the assessment of inequality both marginally (perceived income) and jointly (perceived income and standard of living). We construct univariate/multivariate Lorenz curves and compute the associated Gini coefficients. Results show that perceived income inequality exceeds actual income inequality and is even higher when measured jointly with standard of living. By incorporating this joint distribution, we extend the threshold model of new product diffusion, explore its theoretical properties, and illustrate its application.</p>
-  </details>
-</div>
-
-<div class="research-entry">
-  <p>Dimitrova, D. S., Kaishev, V. K., and S&aacute;enz Guill&eacute;n, E. L. (2026c). <em>Pricing and Diffusion under Perceived Inequality</em>. Manuscript in preparation.</p>
-  <details class="paper-abstract">
-    <summary>Abstract</summary>
-    <p>This paper develops a framework linking perceived income, inequality, pricing, and new product diffusion in heterogeneous markets. Because firms do not observe consumers&rsquo; purchasing power directly, they infer it from observable living-standard signals through an inference technology that generates a distribution of perceived income. Pricing and adoption decisions are therefore governed by perceived rather than latent purchasing power.</p>
-    <p>We show that diffusion dynamics and optimal pricing are jointly determined by the local geometry of the perceived-income distribution. In particular, the curvature of the Lorenz curve acts as a sufficient statistic for market thickness, governing adoption responsiveness, diffusion speed, takeoff dynamics, and pricing incentives. Markets with thinner local segments around the affordability threshold exhibit weaker responses to price reductions, delayed diffusion, and higher optimal markups.</p>
-    <p>The paper also develops an empirical implementation of the inference technology using UK survey data on observable living standards and perceived purchasing power. The results show that alternative informational architectures generate systematically different perceived-income distributions and therefore different pricing and diffusion predictions. Inference technologies based on relatively homogeneous respondent groups may substantially overstate or understate market inequality, whereas more diverse informational architectures generate perceived-income distributions that more closely approximate the underlying distribution of purchasing power.</p>
-    <p>Overall, the paper provides a unified framework connecting inequality, informational frictions, pricing, and diffusion, and highlights the central role of market thickness in shaping market outcomes.</p>
-  </details>
-</div>
-
 ## Work in Progress
 
 *Bariatric Data Analytics Based on the UK National Bariatric Surgery Registry (NBSR)*, joint project with Prof. Vladimir Kaishev, Dr. Dimitrina Dimitrova, and external collaborators, Miss Emma Rose McGlone from Imperial College London and Mr Omar Khan from the British Obesity & Metabolic Specialist Society (BOMSS).
