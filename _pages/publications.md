@@ -19,7 +19,7 @@ redirect_from:
 </div>
 
 <div class="research-entry">
-  <p>Dimitrova, D. S., Kaishev, V. K., and S&aacute;enz Guill&eacute;n, E. L. (2026a). <em>Density and distribution function estimation using variable-knot splines</em>. Manuscript submitted for publication. R package: <a href="https://github.com/emilioluissaenzguillen/ddfs"><strong>DDFS</strong></a>.</p>
+  <p>Dimitrova, D. S., Kaishev, V. K., and S&aacute;enz Guill&eacute;n, E. L. (2026a). <em>Density and distribution function estimation using variable-knot splines</em>. R package: <a href="https://github.com/emilioluissaenzguillen/ddfs"><strong>DDFS</strong></a>.</p>
   <details class="paper-abstract">
     <summary>Abstract</summary>
     <p>We propose a novel nonparametric framework for density estimation based on B-splines with data-driven knot selection. The method, termed DDFS (Density and Distribution Function Splines), simultaneously estimates the probability density function and the cumulative distribution function using a common spline representation, ensuring internal consistency between the two.</p>
